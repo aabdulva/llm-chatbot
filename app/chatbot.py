@@ -1,5 +1,5 @@
-from langchain.vectorstores import FAISS
-from langchain.embeddings import HuggingFaceEmbeddings
+from langchain_community.embeddings import HuggingFaceEmbeddings  # ✅
+from langchain_community.vectorstores import FAISS  # ✅
 from langchain.text_splitter import CharacterTextSplitter
 
 # Load knowledge base

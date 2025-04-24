@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from chatbot import chat
+from app.chatbot import chat  # ✅ Absolute import
 
 app = FastAPI()
 
